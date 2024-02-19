@@ -1,0 +1,15 @@
+/* Format  */
+*{
+    margin: 0;
+}
+
+/* Header */
+header{
+    background-color: cyan;
+    background-image: url(../img/pattern.png);
+    padding-top: 75px;
+}
+
+#img{
+    width: 25%;
+}
