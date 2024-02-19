@@ -46,3 +46,17 @@ h2{
 .imgtim2{
     width: 34.2%;
 }
+
+/* marker */
+.marker{
+    background-color: yellow;
+}
+
+p{
+    margin-top: 30px;
+}
+
+ul{
+    margin-top: 30px;
+}
+
