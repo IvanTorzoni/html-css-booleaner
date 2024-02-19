@@ -89,20 +89,27 @@ th{
 }
 
 .overlay{
+    height: 200px;
+    width: 300px;
     color: white;
-    font-weight: bold;
+    padding: 15px;
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
 }
 
-#monitor{
+.photo1{
     background-image: url(../img/monitor.jpg);
     width: 312px;
     height: 208px;
-    margin-top: 8px; 
+    margin-top: 8px;
+    margin-left: 1px; 
 }
 
-#graph{
+.photo2{
     background-image: url(../img/graph.jpg);
     width: 312px;
     height: 208px;
     margin-top: 8px;
+    margin-left: 1px; 
 }
