@@ -1,5 +1,5 @@
-/* Format  */
-*{
+/* Format header*/
+* {
     margin: 0;
 }
 
@@ -10,6 +10,39 @@ header{
     padding-top: 75px;
 }
 
-#img{
+/* Image */
+#Logo{
     width: 25%;
+}
+
+/* Format main */
+* main{
+    margin-left: 5px;
+}
+
+/* Font Title */
+#font{ 
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* Writer and date style */
+h2{
+    color: grey;
+}
+
+#Booleaner{
+    color: #4ea0ff;
+}
+
+/* Photos style */
+.imgtim{
+    margin-top: 30px;
+    width: 40%;
+}
+
+.imgtim2{
+    width: 34.2%;
 }
