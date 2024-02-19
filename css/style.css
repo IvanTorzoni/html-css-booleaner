@@ -52,11 +52,34 @@ h2{
     background-color: yellow;
 }
 
+/* Paragraph */
 p{
     margin-top: 30px;
 }
 
+/* Unorderted List */
 ul{
     margin-top: 30px;
 }
+
+/* table */
+table{
+    margin-top: 30px;
+    border-spacing: 0;
+}
+
+thead{
+    background-color: #4ea0ff;
+    color: white;
+}
+
+th{
+    text-align: left;
+    width: 1000px;
+}
+
+.tablecolor{
+    background-color: lightblue;
+}
+
 
