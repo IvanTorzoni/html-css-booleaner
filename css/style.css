@@ -1,50 +1,62 @@
-/* Format header*/
+/* RESET*/
 * {
     margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+/* /RESET*/
+
+/* UTILITY */
+
+h2, h3{
+    color: grey;
+}
+
+p, ul, table, #interest{
+    margin-top: 30px;
+}
+
+.photo1, .photo2{
+    width: 312px;
+    height: 208px;
+    margin-top: 8px;
 }
 
 /* Header */
 header{
-    background-color: cyan;
+    background-color: lightskyblue;
     background-image: url(../img/pattern.png);
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 /* Image */
 #Logo{
-    width: 25%;
+    width: 20%;
 }
+/* /Header */
 
-/* Format main */
-* main{
+/* MAIN */
+main{
     margin-left: 5px;
 }
 
 /* Font Title */
-#font{ 
-    font-family: "Roboto", sans-serif;
+h1{ 
     font-size: 50px;
-    text-align: justify;
+    font-family: "Roboto", sans-serif;
     margin-top: 20px;
 }
 
-/* Writer and date style */
-h2{
-    color: grey;
+h3{
+    margin-bottom: 10px;
 }
 
 #Booleaner{
     color: #4ea0ff;
-}
-
-/* Photos style */
-.imgtim{
-    margin-top: 30px;
-    width: 40%;
-}
-
-.imgtim2{
-    width: 34.2%;
 }
 
 /* marker */
@@ -52,21 +64,15 @@ h2{
     background-color: yellow;
 }
 
-/* Paragraph */
-p{
-    margin-top: 30px;
-}
-
 /* Unorderted List */
 ul{
-    margin-top: 30px;
     padding: 15px;
 }
 
 /* table */
 table{
-    margin-top: 30px;
-    border-spacing: 0;
+    /* if you want to remove the spaces you need the border-spacing */
+    border-spacing: 0; 
 }
 
 thead{
@@ -79,37 +85,22 @@ th{
     width: 1000px;
 }
 
-.tablecolor{
+tbody>tr:nth-child(odd){
     background-color: lightblue;
 }
-
-/* Interest */
-#interest{
-    margin-top: 40px;
-}
+/* /table */
 
 .overlay{
-    height: 200px;
-    width: 300px;
-    color: white;
-    padding: 15px;
-    position: relative;
-    margin: 10px;
     font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
 }
 
 .photo1{
     background-image: url(../img/monitor.jpg);
-    width: 312px;
-    height: 208px;
-    margin-top: 8px;
-    margin-left: 1px; 
 }
 
 .photo2{
     background-image: url(../img/graph.jpg);
-    width: 312px;
-    height: 208px;
-    margin-top: 8px;
-    margin-left: 1px; 
 }
